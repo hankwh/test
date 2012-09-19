@@ -12,7 +12,7 @@ function encrypt_url($encrypt,$key=""){
 	$encode=urlencode($encode);
 	return $encode;
 }
-/**
+/**112fdfdf
  * url½âÃÜº¯Êý
  * @param unknown_type $decrypt
  * @param unknown_type $key
