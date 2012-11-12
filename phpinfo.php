@@ -3,7 +3,7 @@
  * url���ܺ���
  * @param unknown_type $encrypt
  * @param unknown_type $key
- * @return string
+ * @return string55667
  */2334445556677878977555577777fdfdfdf
 function encrypt_url($encrypt,$key=""){
 	$iv = mcrypt_create_iv ( mcrypt_get_iv_size ( MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB ), MCRYPT_RAND );
