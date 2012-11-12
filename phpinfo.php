@@ -4,7 +4,7 @@
  * @param unknown_type $encrypt
  * @param unknown_type $key
  * @return string
- */23344455566778
+ */2334445556677878977
 function encrypt_url($encrypt,$key=""){
 	$iv = mcrypt_create_iv ( mcrypt_get_iv_size ( MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB ), MCRYPT_RAND );
 	$passcrypt = mcrypt_encrypt ( MCRYPT_RIJNDAEL_256, $key, $encrypt, MCRYPT_MODE_ECB, $iv );
