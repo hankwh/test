@@ -1,10 +1,10 @@
 <?php
 /**
- * url¼ÓÃÜº¯Êý
+ * urlï¿½ï¿½ï¿½Üºï¿½ï¿½ï¿½
  * @param unknown_type $encrypt
  * @param unknown_type $key
  * @return string
- */
+ */233
 function encrypt_url($encrypt,$key=""){
 	$iv = mcrypt_create_iv ( mcrypt_get_iv_size ( MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB ), MCRYPT_RAND );
 	$passcrypt = mcrypt_encrypt ( MCRYPT_RIJNDAEL_256, $key, $encrypt, MCRYPT_MODE_ECB, $iv );
@@ -13,7 +13,7 @@ function encrypt_url($encrypt,$key=""){
 	return $encode;
 }
 /**112fdfdfff
- * url½âÃÜº¯Êý
+ * urlï¿½ï¿½ï¿½Üºï¿½ï¿½ï¿½
  * @param unknown_type $decrypt
  * @param unknown_type $key
  * @return string
